@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-18'
+date-meta: '2021-01-19'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-01-18" />
-  <meta name="citation_publication_date" content="2021-01-18" />
+  <meta name="dc.date" content="2021-01-19" />
+  <meta name="citation_publication_date" content="2021-01-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/2191d929a12a233347ee79c673b8f2971c10e6dd/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/2191d929a12a233347ee79c673b8f2971c10e6dd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/2191d929a12a233347ee79c673b8f2971c10e6dd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/f6e11fc648097ad2035c54e1a1f93e9be9508515/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/f6e11fc648097ad2035c54e1a1f93e9be9508515/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/f6e11fc648097ad2035c54e1a1f93e9be9508515/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/2191d929a12a233347ee79c673b8f2971c10e6dd/))
+([permalink](https://lubianat.github.io/phd_thesis/v/f6e11fc648097ad2035c54e1a1f93e9be9508515/))
 was automatically generated
-from [lubianat/phd_thesis@2191d92](https://github.com/lubianat/phd_thesis/tree/2191d929a12a233347ee79c673b8f2971c10e6dd)
-on January 18, 2021.
+from [lubianat/phd_thesis@f6e11fc](https://github.com/lubianat/phd_thesis/tree/f6e11fc648097ad2035c54e1a1f93e9be9508515)
+on January 19, 2021.
 </em></small>
 
 ## Authors
@@ -98,9 +98,120 @@ on January 18, 2021.
 
 
 
-## Abstract {.page_break_before}
+## Index {.page_break_before}
 
 
+# Master index
+
+Numbers are used as tags for literature and should not be changed!
+
+At best, names can be clarified.
+
+Ex: 1.1.2 refers to "Interoperable data: dataset integration"
+
+Order may be changed at a later step.
+
+1. Introduction
+   
+    1. The quest for interoperable knowledge
+       1. Literature Based Discovery, hidden knowledge and text-mining
+       2. Interoperable data: dataset integration
+       3. Interoperable publication processes: nanopublications 
+
+
+    2. Formal representation of knowledge
+       1. Descriptional logic and its historical context
+       2. Computational ontologies and their methods
+       3. Web of Data and Linked Open Data
+       4. Wikidata and Knowledge Graphs
+       5. The role of definitions in formal knowledge
+
+    3. Knowledge Representation in biology
+       1. OBO Foundry and biomedical ontologies
+          1. Gene Ontology
+          2. UBERON
+          3. MONDO and DO
+          4. Cell Ontology (and CELDA)
+          5. UMLS, NCiT and non-OBO resources
+       2. Biological knowledgebases
+          1. Cell-type-oriented knowledgebases
+          2. Other databases relevant for this work
+          3. Bio2RDF and semantic databases
+       3. Wikidata as a platform for representation of biological knowledge
+    
+    4. The challenges of the Human Cell Atlas
+       1. The Human Cell Atlas project and its scope
+          1. Participants
+          2. Overview of main analytical techniques
+       2. A focus on single-cell RNA sequencing 
+          1. Wet-lab methods and their differences
+          2. Computational analysis of scRNA-seq data
+             1. Clustering algorithms
+          3. Cell label identification
+             1. Labelling clusters
+             2. Labelling events
+       3. Data availability
+          1. As coordinated by the Human Cell Atlas
+          2. By the community as a whole
+       4. Types of knowledge about cell types
+    
+    5. Goals of this project
+
+2. Definitions
+    1. The concept of "gene"
+       1. Gene as phenotype x gene as DNA
+       2. Species-specific genes and multispecies genes
+       3. Representations of genes in knowledge bases
+       4. A simple theory of the molecular gene 
+          1. Allele x gene
+          2. Gene as individual and gene as a class
+    
+    2. The concept of "taxon"
+       1. Lines of thought about the taxon concept
+          1. Cladistics and the PhyloCode
+          2. Phenetics and Numeric Taxonomy
+       2. Bacteria, cell lines and the plurality of the concept of taxon
+   
+    3. The concept of "cell"
+       1. Historical perspective
+       2. Boundaries of the concept in the context of this thesis
+    
+    4. The concept of "cell type"
+       1. Historical perspective and the morphological cell type
+       2. Modern perspectives of classification of cells
+          1. Classification
+          2. Identification
+             1. Transgenic animals and marker-based identification
+             2. A posteriori identification in high-throughput metodologies
+          3. Nomenclature
+       3. States, identities, fates, attractors and phenotypical continuity
+       4. A pragmatic definition of cell type
+          1. 3+1 rules for defining one type
+          2. Names for different classes of types
+          3. Logical implications of the definition
+          4. Practical implications of the definition
+       5. Less-strict, literature based definitions for immediate use
+          1. The use of the concept in the literature
+          2. The use of the concept in metadata and knowledgebases
+          3. The use of the concept in ontologies
+          4. Wikidata and consensus-determined rigorously undefined concepts
+    
+    5. The concept of "protein"
+       1. Proteins, proteins families and protein molecules
+       2. Protein complexes and their details
+       3. Protein forms
+
+    6. The concept of "transcript"
+       1. Transcript expression x gene expression x protein expression
+
+    7. The concept of "cell marker"
+
+3. Practical Projects
+   
+   1.  Cell-type markers in Wikidata
+      1. PanglaoDB
+      2. Other bases of markers
+      3. WikidataMarkers: a website and an R packase for cell type gene sets
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
