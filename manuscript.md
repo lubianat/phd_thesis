@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-19'
+date-meta: '2021-01-25'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-01-19" />
-  <meta name="citation_publication_date" content="2021-01-19" />
+  <meta name="dc.date" content="2021-01-25" />
+  <meta name="citation_publication_date" content="2021-01-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/f6e11fc648097ad2035c54e1a1f93e9be9508515/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/f6e11fc648097ad2035c54e1a1f93e9be9508515/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/f6e11fc648097ad2035c54e1a1f93e9be9508515/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/9e5f2c7558ba6d8c7351433fa778f5132921a3d1/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/9e5f2c7558ba6d8c7351433fa778f5132921a3d1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/9e5f2c7558ba6d8c7351433fa778f5132921a3d1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/f6e11fc648097ad2035c54e1a1f93e9be9508515/))
+([permalink](https://lubianat.github.io/phd_thesis/v/9e5f2c7558ba6d8c7351433fa778f5132921a3d1/))
 was automatically generated
-from [lubianat/phd_thesis@f6e11fc](https://github.com/lubianat/phd_thesis/tree/f6e11fc648097ad2035c54e1a1f93e9be9508515)
-on January 19, 2021.
+from [lubianat/phd_thesis@9e5f2c7](https://github.com/lubianat/phd_thesis/tree/9e5f2c7558ba6d8c7351433fa778f5132921a3d1)
+on January 25, 2021.
 </em></small>
 
 ## Authors
@@ -212,6 +212,36 @@ Order may be changed at a later step.
       1. PanglaoDB
       2. Other bases of markers
       3. WikidataMarkers: a website and an R packase for cell type gene sets
+   
+   2. Community annotation of texts via Wikidata 
+      1. Pilot: Annotation of the Human Cell Atlas corpus
+      2. Community curation and gamified science
+         1. ANN
+      3. Text mining and Wikidata community curation
+   
+   3. Cellosaurus cell-lines to Wikidata
+   
+   4. Single-cell RNA-seq data reconciliation to Wikidata
+   
+      1. Integration of single-cell RNA-seq bibliometric data to Scholia
+      2. scRNA-seq metadata reconciliation
+         1. COVID-19 cell types collection
+         2. Other single-cell RNA-seq datasets
+         
+   5. Practical applications of a pragmatic cell type definition in 2.4.4
+      1. Basic dictionary for cell type identification based on regular expression of cell type markers
+      2. R package for suggestion of cell-type rules based on Seurat clusters
+      3. R package for rule-based identification of cell types
+         1. Data model and development
+         2. Large scale application to many datasets
+         
+    6. Wikidata Bib and scientific practice as a first-class citizen in the knowledge world
+      1. The Wikidata Bib platform and the formalization of a reading discipline
+      2. Linked Open Data for personalized analysis of bibliography
+      3. Sowing the seeds of knowledge: Meta contributions to Wikidata during the PhD
+      
+    
+      
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
