@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/5e7e5d76f23417de5031bf7a185833985f7c7525/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/5e7e5d76f23417de5031bf7a185833985f7c7525/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/5e7e5d76f23417de5031bf7a185833985f7c7525/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/f33417369d452ab32796061eb9db82e4936a98e1/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/f33417369d452ab32796061eb9db82e4936a98e1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/f33417369d452ab32796061eb9db82e4936a98e1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/5e7e5d76f23417de5031bf7a185833985f7c7525/))
+([permalink](https://lubianat.github.io/phd_thesis/v/f33417369d452ab32796061eb9db82e4936a98e1/))
 was automatically generated
-from [lubianat/phd_thesis@5e7e5d7](https://github.com/lubianat/phd_thesis/tree/5e7e5d76f23417de5031bf7a185833985f7c7525)
+from [lubianat/phd_thesis@f334173](https://github.com/lubianat/phd_thesis/tree/f33417369d452ab32796061eb9db82e4936a98e1)
 on January 26, 2021.
 </em></small>
 
@@ -141,30 +141,30 @@ Order may be changed at a later step.
     
     1.4. The challenges of the Human Cell Atlas
        1.4.1. The Human Cell Atlas project and its scope
-          1. Participants
-          2. Overview of main analytical techniques
+          1.4.1.1. Participants
+          1.4.1.2. Overview of main analytical techniques
        1.4.2. A focus on single-cell RNA sequencing 
-          1. Wet-lab methods and their differences
-          2. Computational analysis of scRNA-seq data
-             1. Clustering algorithms
+          1.4.2.1. Wet-lab methods and their differences
+          1.4.2.2. Computational analysis of scRNA-seq data
+             1.4.2.21. Clustering algorithms
           1.4.2.3. Cell label identification
-             1. Labelling clusters
-             2. Labelling events
-       3. Data availability
-          1. As coordinated by the Human Cell Atlas
-          2. By the community as a whole
-       4. Types of knowledge about cell types
+             1.4.2.3.1. Labelling clusters
+             1.4.2.3.2. Labelling events
+       1.4.3. Data availability
+          1.4.3.1. As coordinated by the Human Cell Atlas
+          1.4.3.2. By the community as a whole
+       1.4.4. Types of knowledge about cell types
     
-    5. Goals of this project
+    1.4.5. Goals of this project
 
 2. Definitions
-    1. The concept of "gene"
-       1. Gene as phenotype x gene as DNA
-       2. Species-specific genes and multispecies genes
-       3. Representations of genes in knowledge bases
-       4. A simple theory of the molecular gene 
-          1. Allele x gene
-          2. Gene as individual and gene as a class
+    2.1. The concept of "gene"
+       2.1.1. Gene as phenotype x gene as DNA
+       2.1.2. Species-specific genes and multispecies genes
+       2.1.3. Representations of genes in knowledge bases
+       2.1.4. A simple theory of the molecular gene 
+          2.1.4.1. Allele x gene
+          2.1.4.2. Gene as individual and gene as a class
     
     2. The concept of "taxon"
        1. Lines of thought about the taxon concept
