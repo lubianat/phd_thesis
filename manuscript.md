@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-25'
+date-meta: '2021-01-26'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-01-25" />
-  <meta name="citation_publication_date" content="2021-01-25" />
+  <meta name="dc.date" content="2021-01-26" />
+  <meta name="citation_publication_date" content="2021-01-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/9e5f2c7558ba6d8c7351433fa778f5132921a3d1/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/9e5f2c7558ba6d8c7351433fa778f5132921a3d1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/9e5f2c7558ba6d8c7351433fa778f5132921a3d1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/5e7e5d76f23417de5031bf7a185833985f7c7525/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/5e7e5d76f23417de5031bf7a185833985f7c7525/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/5e7e5d76f23417de5031bf7a185833985f7c7525/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/9e5f2c7558ba6d8c7351433fa778f5132921a3d1/))
+([permalink](https://lubianat.github.io/phd_thesis/v/5e7e5d76f23417de5031bf7a185833985f7c7525/))
 was automatically generated
-from [lubianat/phd_thesis@9e5f2c7](https://github.com/lubianat/phd_thesis/tree/9e5f2c7558ba6d8c7351433fa778f5132921a3d1)
-on January 25, 2021.
+from [lubianat/phd_thesis@5e7e5d7](https://github.com/lubianat/phd_thesis/tree/5e7e5d76f23417de5031bf7a185833985f7c7525)
+on January 26, 2021.
 </em></small>
 
 ## Authors
@@ -113,41 +113,41 @@ Order may be changed at a later step.
 
 1. Introduction
    
-    1. The quest for interoperable knowledge
-       1. Literature Based Discovery, hidden knowledge and text-mining
-       2. Interoperable data: dataset integration
-       3. Interoperable publication processes: nanopublications 
+    1.1. The quest for interoperable knowledge
+       1.1.1. Literature Based Discovery, hidden knowledge and text-mining
+       1.1.2. Interoperable data: dataset integration
+       1.1.3. Interoperable publication processes: nanopublications 
 
 
-    2. Formal representation of knowledge
-       1. Descriptional logic and its historical context
-       2. Computational ontologies and their methods
-       3. Web of Data and Linked Open Data
-       4. Wikidata and Knowledge Graphs
-       5. The role of definitions in formal knowledge
+    1.2. Formal representation of knowledge
+       1.2.1. Descriptional logic and its historical context
+       1.2.2. Computational ontologies and their methods
+       1.2.3. Web of Data and Linked Open Data
+       1.2.4. Wikidata and Knowledge Graphs
+       1.2.5. The role of definitions in formal knowledge
 
-    3. Knowledge Representation in biology
-       1. OBO Foundry and biomedical ontologies
-          1. Gene Ontology
-          2. UBERON
-          3. MONDO and DO
-          4. Cell Ontology (and CELDA)
-          5. UMLS, NCiT and non-OBO resources
+    1.3. Knowledge Representation in biology
+       1.3.1. OBO Foundry and biomedical ontologies
+          1.3.1. Gene Ontology
+          1.3.2. UBERON
+          1.3.3. MONDO and DO
+          1.3.4. Cell Ontology (and CELDA)
+          1.3.5. UMLS, NCiT and non-OBO resources
        2. Biological knowledgebases
           1. Cell-type-oriented knowledgebases
           2. Other databases relevant for this work
           3. Bio2RDF and semantic databases
        3. Wikidata as a platform for representation of biological knowledge
     
-    4. The challenges of the Human Cell Atlas
-       1. The Human Cell Atlas project and its scope
+    1.4. The challenges of the Human Cell Atlas
+       1.4.1. The Human Cell Atlas project and its scope
           1. Participants
           2. Overview of main analytical techniques
-       2. A focus on single-cell RNA sequencing 
+       1.4.2. A focus on single-cell RNA sequencing 
           1. Wet-lab methods and their differences
           2. Computational analysis of scRNA-seq data
              1. Clustering algorithms
-          3. Cell label identification
+          1.4.2.3. Cell label identification
              1. Labelling clusters
              2. Labelling events
        3. Data availability
