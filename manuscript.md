@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-26'
+date-meta: '2021-01-30'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-01-26" />
-  <meta name="citation_publication_date" content="2021-01-26" />
+  <meta name="dc.date" content="2021-01-30" />
+  <meta name="citation_publication_date" content="2021-01-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/f33417369d452ab32796061eb9db82e4936a98e1/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/f33417369d452ab32796061eb9db82e4936a98e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/f33417369d452ab32796061eb9db82e4936a98e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/c3ccd97a5ecc3e2f7b3b7e553e19b27633956c6b/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/c3ccd97a5ecc3e2f7b3b7e553e19b27633956c6b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/c3ccd97a5ecc3e2f7b3b7e553e19b27633956c6b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/f33417369d452ab32796061eb9db82e4936a98e1/))
+([permalink](https://lubianat.github.io/phd_thesis/v/c3ccd97a5ecc3e2f7b3b7e553e19b27633956c6b/))
 was automatically generated
-from [lubianat/phd_thesis@f334173](https://github.com/lubianat/phd_thesis/tree/f33417369d452ab32796061eb9db82e4936a98e1)
-on January 26, 2021.
+from [lubianat/phd_thesis@c3ccd97](https://github.com/lubianat/phd_thesis/tree/c3ccd97a5ecc3e2f7b3b7e553e19b27633956c6b)
+on January 30, 2021.
 </em></small>
 
 ## Authors
@@ -208,20 +208,20 @@ Order may be changed at a later step.
 
 3. Practical Projects
    
-   1.  Cell-type markers in Wikidata
+   3.1.  Cell-type markers in Wikidata
       1. PanglaoDB
       2. Other bases of markers
       3. WikidataMarkers: a website and an R packase for cell type gene sets
    
-   2. Community annotation of texts via Wikidata 
-      1. Pilot: Annotation of the Human Cell Atlas corpus
-      2. Community curation and gamified science
+   3.2. Community annotation of texts via Wikidata 
+      3.2.1. Pilot: Annotation of the Human Cell Atlas corpus
+      3.2.2. Community curation and gamified science
          1. ANN
-      3. Text mining and Wikidata community curation
+      3.2.3. Text mining and Wikidata community curation
    
-   3. Cellosaurus cell-lines to Wikidata
+   3.3. Cellosaurus cell-lines to Wikidata
    
-   4. Single-cell RNA-seq data reconciliation to Wikidata
+   3.4. Single-cell RNA-seq data reconciliation to Wikidata
    
       1. Integration of single-cell RNA-seq bibliometric data to Scholia
       2. scRNA-seq metadata reconciliation
