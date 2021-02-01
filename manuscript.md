@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-31'
+date-meta: '2021-02-01'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-01-31" />
-  <meta name="citation_publication_date" content="2021-01-31" />
+  <meta name="dc.date" content="2021-02-01" />
+  <meta name="citation_publication_date" content="2021-02-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/a19782437fe7142c012b8f466a35b22dcfbad4a1/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/a19782437fe7142c012b8f466a35b22dcfbad4a1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/a19782437fe7142c012b8f466a35b22dcfbad4a1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/c435de393b26c10f8210b1cdb91e8135e1d3fdd1/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/c435de393b26c10f8210b1cdb91e8135e1d3fdd1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/c435de393b26c10f8210b1cdb91e8135e1d3fdd1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/a19782437fe7142c012b8f466a35b22dcfbad4a1/))
+([permalink](https://lubianat.github.io/phd_thesis/v/c435de393b26c10f8210b1cdb91e8135e1d3fdd1/))
 was automatically generated
-from [lubianat/phd_thesis@a197824](https://github.com/lubianat/phd_thesis/tree/a19782437fe7142c012b8f466a35b22dcfbad4a1)
-on January 31, 2021.
+from [lubianat/phd_thesis@c435de3](https://github.com/lubianat/phd_thesis/tree/c435de393b26c10f8210b1cdb91e8135e1d3fdd1)
+on February 1, 2021.
 </em></small>
 
 ## Authors
@@ -111,33 +111,33 @@ Ex: 1.1.2 refers to "Interoperable data: dataset integration"
 
 Order may be changed at a later step.
 
-1. Introduction
+- 1. Introduction
    
-    1.1. The quest for interoperable knowledge
-       1.1.1. Literature Based Discovery, hidden knowledge and text-mining
-       1.1.2. Interoperable data: dataset integration
-       1.1.3. Interoperable publication processes: nanopublications 
+- 1.1. The quest for interoperable knowledge
+- 1.1.1. Literature Based Discovery, hidden knowledge and text-mining
+- 1.1.2. Interoperable data: dataset integration
+- 1.1.3. Interoperable publication processes: nanopublications 
 
 
-    1.2. Formal representation of knowledge
-       1.2.1. Descriptional logic and its historical context
-       1.2.2. Computational ontologies and their methods
-       1.2.3. Web of Data and Linked Open Data
-       1.2.4. Wikidata and Knowledge Graphs
-       1.2.5. The role of definitions in formal knowledge
+- 1.2. Formal representation of knowledge
+- 1.2.1. Descriptional logic and its historical context
+- 1.2.2. Computational ontologies and their methods
+- 1.2.3. Web of Data and Linked Open Data
+- 1.2.4. Wikidata and Knowledge Graphs
+- 1.2.5. The role of definitions in formal knowledge
 
-    1.3. Knowledge Representation in biology
-       1.3.1. OBO Foundry and biomedical ontologies
-          1.3.1. Gene Ontology
-          1.3.2. UBERON
-          1.3.3. MONDO and DO
-          1.3.4. Cell Ontology (and CELDA)
-          1.3.5. UMLS, NCiT and non-OBO resources
-       1.3.2. Biological knowledgebases
-          1. Cell-type-oriented knowledgebases
-          2. Other databases relevant for this work
-          3. Bio2RDF and semantic databases
-       1.3.3. Wikidata as a platform for representation of biological knowledge
+- 1.3. Knowledge Representation in biology
+- 1.3.1. OBO Foundry and biomedical ontologies
+- 1.3.1.1 Gene Ontology
+- 1.3.1.2. UBERON
+- 1.3.1.3. MONDO and DO
+- 1.3.1.4. Cell Ontology (and CELDA)
+- 1.3.1.5. UMLS, NCiT and non-OBO resources
+- 1.3.2. Biological knowledgebases
+- 1.3.2.1. Cell-type-oriented knowledgebases
+- 1.3.2.2. Other databases relevant for this work
+- 1.3.2.3. Bio2RDF and semantic databases
+- 1.3.3. Wikidata as a platform for representation of biological knowledge
     
     1.4. The challenges of the Human Cell Atlas
        1.4.1. The Human Cell Atlas project and its scope
@@ -176,15 +176,15 @@ Order may be changed at a later step.
        1. Historical perspective
        2. Boundaries of the concept in the context of this thesis
     
-    4. The concept of "cell type"
-       1. Historical perspective and the morphological cell type
-       2. Modern perspectives of classification of cells
-          1. Classification
-          2. Identification
+    2.4. The concept of "cell type"
+       2.4.1. Historical perspective and the morphological cell type
+       2.4.2. Modern perspectives of classification of cells
+          2.4.1. Classification
+          2.4.2. Identification
              1. Transgenic animals and marker-based identification
              2. A posteriori identification in high-throughput metodologies
           3. Nomenclature
-       3. States, identities, fates, attractors and phenotypical continuity
+       2.4.3. States, identities, fates, attractors and phenotypical continuity
        4. A pragmatic definition of cell type
           1. 3+1 rules for defining one type
           2. Names for different classes of types
