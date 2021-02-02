@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/79bf3ed13bf6224e4b7245db7d65b671be3a2d63/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/79bf3ed13bf6224e4b7245db7d65b671be3a2d63/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/79bf3ed13bf6224e4b7245db7d65b671be3a2d63/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/1c611a94d94913d1368c60a69e514dee158501d4/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/1c611a94d94913d1368c60a69e514dee158501d4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/1c611a94d94913d1368c60a69e514dee158501d4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/79bf3ed13bf6224e4b7245db7d65b671be3a2d63/))
+([permalink](https://lubianat.github.io/phd_thesis/v/1c611a94d94913d1368c60a69e514dee158501d4/))
 was automatically generated
-from [lubianat/phd_thesis@79bf3ed](https://github.com/lubianat/phd_thesis/tree/79bf3ed13bf6224e4b7245db7d65b671be3a2d63)
+from [lubianat/phd_thesis@1c611a9](https://github.com/lubianat/phd_thesis/tree/1c611a94d94913d1368c60a69e514dee158501d4)
 on February 2, 2021.
 </em></small>
 
@@ -149,7 +149,7 @@ Order may be changed at a later step.
 - 1.4.2. A focus on single-cell RNA sequencing 
 - 1.4.2.1. Wet-lab methods and their differences
 - 1.4.2.2. Computational analysis of scRNA-seq data
-- 1.4.2.21. Clustering algorithms
+- 1.4.2.2.1. Clustering algorithms
 - 1.4.2.3. Cell label identification
 - 1.4.2.3.1. Labelling clusters
 - 1.4.2.3.2. Labelling events
@@ -201,49 +201,49 @@ Order may be changed at a later step.
 - 2.4.5.3. The use of the concept in ontologies
 - 2.4.5.4. Wikidata and consensus-determined rigorously undefined concepts
     
--    5. The concept of "protein"
--       1. Proteins, proteins families and protein molecules
--       2. Protein complexes and their details
--       3. Protein forms
+- 2.5. The concept of "protein"
+- 2.5.1. Proteins, proteins families and protein molecules
+- 2.5.2. Protein complexes and their details
+- 2.5.3. Protein forms
 
--    6. The concept of "transcript"
--       1. Transcript expression x gene expression x protein expression
+- 2.6. The concept of "transcript"
+- 2.6.1. Transcript expression x gene expression x protein expression
 
--    7. The concept of "cell marker"
+- 2.7. The concept of "cell marker"
 
 - 3. Practical Projects
    
--   3.1.  Cell-type markers in Wikidata
--      1. PanglaoDB
--      2. Other bases of markers
--      3. WikidataMarkers: a website and an R packase for cell type gene sets
+- 3.1.  Cell-type markers in Wikidata
+- 3.1.1. PanglaoDB
+- 3.1.2. Other bases of markers
+- 3.1.3. WikidataMarkers: a website and an R packase for cell type gene sets
    
--   3.2. Community annotation of texts via Wikidata 
--      3.2.1. Pilot: Annotation of the Human Cell Atlas corpus
--      3.2.2. Community curation and gamified science
--         1. ANN
--      3.2.3. Text mining and Wikidata community curation
+- 3.2. Community annotation of texts via Wikidata 
+- 3.2.1. Pilot: Annotation of the Human Cell Atlas corpus
+- 3.2.2. Community curation and gamified science
+- 3.2.2.1. ANN
+- 3.2.3. Text mining and Wikidata community curation
    
--   3.3. Cellosaurus cell-lines to Wikidata
+- 3.3. Cellosaurus cell-lines to Wikidata
    
--   3.4. Single-cell RNA-seq data reconciliation to Wikidata
+- 3.4. Single-cell RNA-seq data reconciliation to Wikidata
    
--      1. Integration of single-cell RNA-seq bibliometric data to Scholia
--      2. scRNA-seq metadata reconciliation
--         1. COVID-19 cell types collection
--         2. Other single-cell RNA-seq datasets
+- 3.4.1. Integration of single-cell RNA-seq bibliometric data to Scholia
+- 3.4.2. scRNA-seq metadata reconciliation
+- 3.4.2.1. COVID-19 cell types collection
+- 3.4.2.2. Other single-cell RNA-seq datasets
          
--   5. Practical applications of a pragmatic cell type definition in 2.4.4
--      3.5.1. Basic dictionary for cell type identification based on regular expression of cell type markers
--      2. R package for suggestion of cell-type rules based on Seurat clusters
--      3. R package for rule-based identification of cell types
--         1. Data model and development
--         2. Large scale application to many datasets
+- 3.5. Practical applications of a pragmatic cell type definition in 2.4.4
+- 3.5.1. Basic dictionary for cell type identification based on regular expression of cell type markers
+- 3.5.2. R package for suggestion of cell-type rules based on Seurat clusters
+- 3.5.3. R package for rule-based identification of cell types
+- 3.5.3.1. Data model and development
+- 3.5.3.2. Large scale application to many datasets
          
--    3.6. Wikidata Bib and scientific practice as a first-class citizen in the knowledge world
--      3.6.1. The Wikidata Bib platform and the formalization of a reading discipline
--      3.6.2. Linked Open Data for personalized analysis of bibliography
--      3. Sowing the seeds of knowledge: Meta contributions to Wikidata during the PhD
+- 3.6. Wikidata Bib and scientific practice as a first-class citizen in the knowledge world
+- 3.6.1. The Wikidata Bib platform and the formalization of a reading discipline
+- 3.6.2. Linked Open Data for personalized analysis of bibliography
+- 3.6.3 Sowing the seeds of knowledge: Meta contributions to Wikidata during the PhD
       
     
       

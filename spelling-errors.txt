@@ -5,6 +5,7 @@ amet
 anim
 attractors
 aute
+bibliometric
 CELDA
 Cellosaurus
 cillum
@@ -12,9 +13,12 @@ Cladistics
 commodo
 consectetur
 consequat
+COVID
 culpa
 cupidatat
+curation
 dataset
+datasets
 Descriptional
 deserunt
 dolore
@@ -26,8 +30,9 @@ esse
 Excepteur
 exercitation
 fugiat
+gamified
 incididunt
-Interoperable
+interoperable
 ipsum
 irure
 janeroe
@@ -52,7 +57,9 @@ OBO
 occaecat
 officia
 ontologies
+packase
 Pandoc’s
+PanglaoDB
 pariatur
 Phenetics
 phenotypical
@@ -63,6 +70,7 @@ qui
 quis
 RDF
 reprehenderit
+Scholia
 scRNA
 sed
 sint
@@ -74,5 +82,6 @@ UMLS
 velit
 veniam
 voluptate
+WikidataMarkers
 XXXX
 XXXXXXXX
