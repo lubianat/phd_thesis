@@ -35,6 +35,7 @@ fcoex
 fugiat
 gamified
 incididunt
+infratype
 interoperable
 ipsum
 irure
@@ -77,8 +78,11 @@ reprehenderit
 Scholia
 scRNA
 sed
+sensu
 sint
+stricto
 sunt
+technotype
 tempor
 UBERON
 ullamco

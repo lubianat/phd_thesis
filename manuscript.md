@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-03-06'
+date-meta: '2021-03-08'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-03-06" />
-  <meta name="citation_publication_date" content="2021-03-06" />
+  <meta name="dc.date" content="2021-03-08" />
+  <meta name="citation_publication_date" content="2021-03-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/94cb49d430f3e8835a5a3ea5a10738adad60c597/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/94cb49d430f3e8835a5a3ea5a10738adad60c597/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/94cb49d430f3e8835a5a3ea5a10738adad60c597/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/5f5d898e2b78db36cf66d931819721485cc11d68/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/5f5d898e2b78db36cf66d931819721485cc11d68/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/5f5d898e2b78db36cf66d931819721485cc11d68/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/94cb49d430f3e8835a5a3ea5a10738adad60c597/))
+([permalink](https://lubianat.github.io/phd_thesis/v/5f5d898e2b78db36cf66d931819721485cc11d68/))
 was automatically generated
-from [lubianat/phd_thesis@94cb49d](https://github.com/lubianat/phd_thesis/tree/94cb49d430f3e8835a5a3ea5a10738adad60c597)
-on March 6, 2021.
+from [lubianat/phd_thesis@5f5d898](https://github.com/lubianat/phd_thesis/tree/5f5d898e2b78db36cf66d931819721485cc11d68)
+on March 8, 2021.
 </em></small>
 
 ## Authors
@@ -192,7 +192,15 @@ Order may be changed at a later step.
 - 2.4.3. States, identities, fates, attractors and phenotypical continuity
 - 2.4.4. A pragmatic definition of cell type
 - 2.4.4.1. 3+1 rules for defining one type
+- 2.4.4.1.1 Cell types must have explicit definitions
+- 2.4.4.1.2 Cell types must have a taxonomic scope
+- 2.4.4.1.3 Cell types must be useful
+- 2.4.4.1.4 Cell types should be inserted in an ontology 
 - 2.4.4.2. Names for different classes of types
+- 2.4.4.2.1 The cell archetype
+- 2.4.4.2.2 The sensu stricto cell type
+- 2.4.4.2.3 The infratype
+- 2.4.4.2.4 The technotype
 - 2.4.4.3. Logical implications of the definition
 - 2.4.4.4. Practical implications of the definition
 - 2.4.4.5. Less-strict, literature based definitions for immediate use
