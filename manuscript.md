@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/d53120c71af38a40eddc9d6ecdb3e03b11b66769/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/d53120c71af38a40eddc9d6ecdb3e03b11b66769/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/d53120c71af38a40eddc9d6ecdb3e03b11b66769/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/c276f933b1cd3dee22a8bdc595b083b371a86a51/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/c276f933b1cd3dee22a8bdc595b083b371a86a51/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/c276f933b1cd3dee22a8bdc595b083b371a86a51/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/d53120c71af38a40eddc9d6ecdb3e03b11b66769/))
+([permalink](https://lubianat.github.io/phd_thesis/v/c276f933b1cd3dee22a8bdc595b083b371a86a51/))
 was automatically generated
-from [lubianat/phd_thesis@d53120c](https://github.com/lubianat/phd_thesis/tree/d53120c71af38a40eddc9d6ecdb3e03b11b66769)
+from [lubianat/phd_thesis@c276f93](https://github.com/lubianat/phd_thesis/tree/c276f933b1cd3dee22a8bdc595b083b371a86a51)
 on March 11, 2021.
 </em></small>
 
@@ -187,6 +187,7 @@ Order may be changed at a later step.
 - 2.4.1. Historical perspective and the morphological cell type
 - 2.4.2. Modern perspectives of classification of cells
 - 2.4.2.1. Classification
+- 2.4.2.1.1 Evolutionary cell types
 - 2.4.2.2. Identification
 - 2.4.2.2.1. Transgenic animals and marker-based identification
 - 2.4.2.2.2. A posteriori identification in high-throughput metodologies
