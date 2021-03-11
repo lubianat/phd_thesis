@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-03-08'
+date-meta: '2021-03-11'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-03-08" />
-  <meta name="citation_publication_date" content="2021-03-08" />
+  <meta name="dc.date" content="2021-03-11" />
+  <meta name="citation_publication_date" content="2021-03-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/5f5d898e2b78db36cf66d931819721485cc11d68/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/5f5d898e2b78db36cf66d931819721485cc11d68/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/5f5d898e2b78db36cf66d931819721485cc11d68/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/d53120c71af38a40eddc9d6ecdb3e03b11b66769/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/d53120c71af38a40eddc9d6ecdb3e03b11b66769/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/d53120c71af38a40eddc9d6ecdb3e03b11b66769/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/5f5d898e2b78db36cf66d931819721485cc11d68/))
+([permalink](https://lubianat.github.io/phd_thesis/v/d53120c71af38a40eddc9d6ecdb3e03b11b66769/))
 was automatically generated
-from [lubianat/phd_thesis@5f5d898](https://github.com/lubianat/phd_thesis/tree/5f5d898e2b78db36cf66d931819721485cc11d68)
-on March 8, 2021.
+from [lubianat/phd_thesis@d53120c](https://github.com/lubianat/phd_thesis/tree/d53120c71af38a40eddc9d6ecdb3e03b11b66769)
+on March 11, 2021.
 </em></small>
 
 ## Authors
@@ -140,7 +140,9 @@ Order may be changed at a later step.
 - 1.3.2.3. Bio2RDF and semantic databases
 -
 - 1.3.3. Wikidata as a platform for representation of biological knowledge
-    
+-
+- 1.3.4 Semantic Systems Biology
+   
 - 1.4. The challenges of the Human Cell Atlas
 - 1.4.1. The Human Cell Atlas project and its scope
 - 1.4.1.1. Participants
