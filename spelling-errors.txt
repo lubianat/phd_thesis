@@ -7,6 +7,7 @@ anim
 attractors
 aute
 bibliometric
+biocuration
 CELDA
 Cellosaurus
 cillum
@@ -36,7 +37,7 @@ fugiat
 gamified
 incididunt
 infratype
-interoperable
+Interoperable
 ipsum
 irure
 janeroe
@@ -48,6 +49,7 @@ laboris
 laborum
 Lorem
 magna
+metascientific
 metodologies
 mollit
 MONDO

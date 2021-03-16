@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-03-11'
+date-meta: '2021-03-16'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-03-11" />
-  <meta name="citation_publication_date" content="2021-03-11" />
+  <meta name="dc.date" content="2021-03-16" />
+  <meta name="citation_publication_date" content="2021-03-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/c276f933b1cd3dee22a8bdc595b083b371a86a51/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/c276f933b1cd3dee22a8bdc595b083b371a86a51/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/c276f933b1cd3dee22a8bdc595b083b371a86a51/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/cca72522d89de35acaed830922e7b72d5a343310/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/cca72522d89de35acaed830922e7b72d5a343310/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/cca72522d89de35acaed830922e7b72d5a343310/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/c276f933b1cd3dee22a8bdc595b083b371a86a51/))
+([permalink](https://lubianat.github.io/phd_thesis/v/cca72522d89de35acaed830922e7b72d5a343310/))
 was automatically generated
-from [lubianat/phd_thesis@c276f93](https://github.com/lubianat/phd_thesis/tree/c276f933b1cd3dee22a8bdc595b083b371a86a51)
-on March 11, 2021.
+from [lubianat/phd_thesis@cca7252](https://github.com/lubianat/phd_thesis/tree/cca72522d89de35acaed830922e7b72d5a343310)
+on March 16, 2021.
 </em></small>
 
 ## Authors
@@ -255,7 +255,10 @@ Order may be changed at a later step.
 - 3.6.1. The Wikidata Bib platform and the formalization of a reading discipline
 - 3.6.2. Linked Open Data for personalized analysis of bibliography
 - 3.6.3 Sowing the seeds of knowledge: Meta contributions to Wikidata during the PhD
-      
+
+- 3.7 Scholarly and metascientific information on Scholia/Wikidata
+
+- 3.8 The long trail of biocuration
       
 - 0 Master's projects
 - 0.1 fcoex & FCBF
