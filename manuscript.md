@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-03-27'
+date-meta: '2021-03-31'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-03-27" />
-  <meta name="citation_publication_date" content="2021-03-27" />
+  <meta name="dc.date" content="2021-03-31" />
+  <meta name="citation_publication_date" content="2021-03-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/0f61ed251b642c2d5331928d04f0184980efe304/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/0f61ed251b642c2d5331928d04f0184980efe304/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/0f61ed251b642c2d5331928d04f0184980efe304/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/7daa069db02f89a19c760bd9f803b319a363baa0/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/7daa069db02f89a19c760bd9f803b319a363baa0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/7daa069db02f89a19c760bd9f803b319a363baa0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/0f61ed251b642c2d5331928d04f0184980efe304/))
+([permalink](https://lubianat.github.io/phd_thesis/v/7daa069db02f89a19c760bd9f803b319a363baa0/))
 was automatically generated
-from [lubianat/phd_thesis@0f61ed2](https://github.com/lubianat/phd_thesis/tree/0f61ed251b642c2d5331928d04f0184980efe304)
-on March 27, 2021.
+from [lubianat/phd_thesis@7daa069](https://github.com/lubianat/phd_thesis/tree/7daa069db02f89a19c760bd9f803b319a363baa0)
+on March 31, 2021.
 </em></small>
 
 ## Authors
@@ -150,6 +150,7 @@ Order may be changed at a later step.
 - 
 - 1.4.2. A focus on single-cell RNA sequencing 
 - 1.4.2.1. Wet-lab methods and their differences
+- 1.4.2.1.1 Bias introduced by different scRNA-seq methods
 - 1.4.2.2. Computational analysis of scRNA-seq data
 - 1.4.2.2.1. Clustering algorithms
 - 1.4.2.3. Cell label identification
