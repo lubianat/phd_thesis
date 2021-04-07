@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-03-31'
+date-meta: '2021-04-07'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-03-31" />
-  <meta name="citation_publication_date" content="2021-03-31" />
+  <meta name="dc.date" content="2021-04-07" />
+  <meta name="citation_publication_date" content="2021-04-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/7daa069db02f89a19c760bd9f803b319a363baa0/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/7daa069db02f89a19c760bd9f803b319a363baa0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/7daa069db02f89a19c760bd9f803b319a363baa0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/e71b880eeca6bce253fd3bec701a8cff67be81f3/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/e71b880eeca6bce253fd3bec701a8cff67be81f3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/e71b880eeca6bce253fd3bec701a8cff67be81f3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/7daa069db02f89a19c760bd9f803b319a363baa0/))
+([permalink](https://lubianat.github.io/phd_thesis/v/e71b880eeca6bce253fd3bec701a8cff67be81f3/))
 was automatically generated
-from [lubianat/phd_thesis@7daa069](https://github.com/lubianat/phd_thesis/tree/7daa069db02f89a19c760bd9f803b319a363baa0)
-on March 31, 2021.
+from [lubianat/phd_thesis@e71b880](https://github.com/lubianat/phd_thesis/tree/e71b880eeca6bce253fd3bec701a8cff67be81f3)
+on April 7, 2021.
 </em></small>
 
 ## Authors
@@ -273,300 +273,129 @@ Order may be changed at a later step.
       
 
 
-This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.
+# Introduction
 
-The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (`.md` files in the `/content` directory) to the output you see below.
 
-## Basic formatting
+## The Human Cell Atlas 
+* Data interoperability challenges
+* Data interoperability challenges
+* knowledge interoperability challenges
 
-**Bold** __text__
+Some of the interoperability challenges fit within the larger quest to extract and integrate literature knowledge. 
+Biocuration and literature based discovery. 
 
-[Semi-bold text]{.semibold}
+## Literature Based Discovery, hidden knowledge and text-mining
 
-[Centered text]{.center}
+* Tsunami of knowledge - o parse,  connect and benefit society
+* Literature based discovery is a way to connect knowledge
+  * Biocuration and organization
+  * Actual processing of the curated information
 
-[Right-aligned text]{.right}
+## Knowledge graphs as tools for interoperability
 
-*Italic* _text_
+* The OBO Foundry and biomedical ontologies
 
-Combined *italics and __bold__*
+* Knowledge graphs and a different approach to biomedical semantics
 
-~~Strikethrough~~
+* Wikidata as a knowledge graph for the life sciences
 
-1. Ordered list item
-2. Ordered list item
-    a. Sub-item
-    b. Sub-item
-        i. Sub-sub-item
-3. Ordered list item
-    a. Sub-item
+# Objectives 
+* Set up the semantic infrastructure on Wikidata for handling knowledge about cell types
 
-- List item
-- List item
-- List item
+    * Refine the theories of types/states/classes of cells within the constraints of ontologies and knowledge bases
+    * Investigate the types of statements done about cell types
+      * On Wikidata
+      * On OBO Foundry ontologies
+      * Freely on the biomedical literature
+    * Craft wikidata relations ("properties") for making cell-type-related assertions (like "has marker" or "is the progenitor of")
+  
+* Devise ways to connect the Human Cell Atlas products to Wikidata and the Linked Open Data cloud
+  * Write bots and scripts to reconcile data sources to Wikidata
+  * Create tools for biocuration of Human Cell Atlas products combining text mining and expert curation
+  * Project software for reuse of HCA-related knowledge integrated into common bioinformatics workflows.
 
-subscript: H~2~O is a liquid
+* Provide proofs-of-concepts of how Wikidata integration can benefit the advancement of HCA
 
-superscript: 2^10^ is 1024.
 
-[unicode superscripts](https://www.google.com/search?q=superscript+generator)⁰¹²³⁴⁵⁶⁷⁸⁹
+# Methodology
 
-[unicode subscripts](https://www.google.com/search?q=superscript+generator)₀₁₂₃₄₅₆₇₈₉
+## Organized reading
 
-A long paragraph of text.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Given the breadth of the task envisioned for this project, a standard methodology of reading was followed. 
 
-Putting each sentence on its own line has numerous benefits with regard to [editing](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line) and [version control](https://rhodesmill.org/brandon/2012/one-sentence-per-line/).
+* Describe Wikidata bib
+* Integrate with ECO's views
 
-Line break without starting a new paragraph by putting  
-two spaces at end of line.
 
-## Document organization
+## Wikidata updates
 
-Document section headings:
+* Property proposals
+* Wikidata bots
+* PanglaoDB integration
+* Semi-manual integration: Google Sheets and Quickstatements
 
-# Heading 1
+## Data retrieval
 
-## Heading 2
+* SPARQL queries
 
-### Heading 3
+## Data analysis
 
-#### Heading 4
+* Packages used in R and Python
+* For interacting with Wikidata
 
-##### Heading 5
+### Annotation of Human Cell Atlas articles
 
-###### Heading 6
+### Status of cell type info on Wikidata
 
-### A heading centered on its own printed page{.center .page_center}
+### Cell-disease network analysis
 
-<!-- an arbitrary comment. visible in input, but not visible in output. -->
 
-Horizontal rule:
+# Preliminary Results
 
----
+## The concept of cell type
 
-`Heading 1`'s are recommended to be reserved for the title of the manuscript.
+* Describe background
+* Cell types, cell states and cell classes
+* Levels of cell type information: archetype, senso stritu cell type, infratype and technotype. 
+* Infratypes and technotypes as theoretical innovations
+* Current usage mixes archetypes and species-specific cell types
+* Annotation of HCA articles for grasping the use of different concepts in the context of HCA
 
-`Heading 2`'s are recommended for broad sections such as *Abstract*, *Methods*, *Conclusion*, etc.
+### Next steps
 
-`Heading 3`'s and `Heading 4`'s are recommended for sub-sections.
+* Improve formalization of cell types in connection with the biomedical semantics community
 
-## Links
+## HCA 
 
-Bare URL link: <https://manubot.org>
+* "Sky dive" approach: hand annotation of all abstracts and the core Human Cell Atlas paper
+* Benefits of using a single ontology that anyone can edit (new terms and speed of science)
+* Figure: The different concepts in use by the HCA paper
+* Figure: The different concepts in use by the different HCA papers
+* Discussion
+* Information by HCA and related efforts is already targeted by biocurators. PanglaoDB is one of
+these resources etc etc
 
-[Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah](https://manubot.org)
+### Next steps
 
-[Link with text](https://manubot.org)
+* Mature the annotation system into a curation tool (based on ANN, perhaps reuse figure)
+* Explore the use of SciSpacy and natural language processing for making it easier
 
-[Link with hover text](https://manubot.org "Manubot Homepage")
 
-[Link by reference][manubot homepage]
+## PanglaoDB integration to Wikidata
 
-[Manubot Homepage]: https://manubot.org
+* The architecture of marker information on Wikidata
+* Integration of information to the larger scope --> live updates by everyone
+* Overview of the stats 
 
-## Citations
+## Cell-disease networks
 
-Citation by DOI [@doi:10.7554/eLife.32822].
+* Systems-biology explorations: what can we discover based on the literature distilled on wikidata?
+* Cell-disease networks based on shared genes
+* Hub diseases and cell types
+* ShinyApp to explore the data in real time
 
-Citation by PubMed Central ID [@pmc:PMC6103790].
 
-Citation by PubMed ID [@pubmed:30718888].
 
-Citation by Wikidata ID [@wikidata:Q56458321].
-
-Citation by ISBN [@isbn:9780262517638].
-
-Citation by URL [@https://greenelab.github.io/meta-review/].
-
-Citation by alias [@deep-review].
-
-Multiple citations can be put inside the same set of brackets [@doi:10.7554/eLife.32822; @deep-review; @isbn:9780262517638].
-Manubot plugins provide easier, more convenient visualization of and navigation between citations [@doi:10.1371/journal.pcbi.1007128; @pubmed:30718888; @pmc:PMC6103790; @deep-review].
-
-Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown's reference link syntax:
-
-[@deep-review]: doi:10.1098/rsif.2017.0387
-
-## Referencing figures, tables, equations
-
-Figure @fig:square-image
-
-Figure @fig:wide-image
-
-Figure @fig:tall-image
-
-Figure @fig:vector-image
-
-Table @tbl:bowling-scores
-
-Equation @eq:regular-equation
-
-Equation @eq:long-equation
-
-## Quotes and code
-
-> Quoted text
-
-> Quoted block of text
->
-> Two roads diverged in a wood, and I—  
-> I took the one less traveled by,  
-> And that has made all the difference.
-
-Code `in the middle` of normal text, aka `inline code`.
-
-Code block with Python syntax highlighting:
-
-```python
-from manubot.cite.doi import expand_short_doi
-
-def test_expand_short_doi():
-    doi = expand_short_doi("10/c3bp")
-    # a string too long to fit within page:
-    assert doi == "10.25313/2524-2695-2018-3-vliyanie-enhansera-copia-i-insulyatora-gypsy-na-sintez-ernk-modifikatsii-hromatina-i-svyazyvanie-insulyatornyh-belkov-vtransfetsirovannyh-geneticheskih-konstruktsiyah"
-```
-
-Code block with no syntax highlighting:
-
-```
-Exporting HTML manuscript
-Exporting DOCX manuscript
-Exporting PDF manuscript
-```
-
-## Figures
-
-![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
-
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png "Wide image"){#fig:wide-image}
-
-![
-**A tall image with a specified height.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png "Tall image"){#fig:tall-image height=3in}
-
-![
-**A vector `.svg` image loaded from GitHub.**
-The parameter `sanitize=true` is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.
-](https://raw.githubusercontent.com/manubot/resources/main/test/vector.svg?sanitize=true "Vector image"){#fig:vector-image height=2.5in .white}
-
-## Tables
-
-| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
-|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| Game 1 | 150 | 187 | 210 | 105 |
-| Game 2 |  98 | 202 | 197 | 102 |
-| Game 3 | 123 | 180 | 238 | 134 |
-
-Table: A table with a top caption and specified relative column widths.
-{#tbl:bowling-scores}
-
-|         | Digits 1-33                        | Digits 34-66                      | Digits 67-99                      | Ref.                                                        |
-|:--------|:-----------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------------|
-| pi      | 3.14159265358979323846264338327950 | 288419716939937510582097494459230 | 781640628620899862803482534211706 | [`piday.org`](https://www.piday.org/million/)               |
-| e       | 2.71828182845904523536028747135266 | 249775724709369995957496696762772 | 407663035354759457138217852516642 | [`nasa.gov`](https://apod.nasa.gov/htmltest/gifcity/e.2mil) |
-
-Table: A table too wide to fit within page.
-{#tbl:constant-digits}
-
-|          | **Colors** <!-- $colspan="2" --> |                      |
-|:--------:|:--------------------------------:|:--------------------:|
-| **Size** | **Text Color**                   | **Background Color** |
-| big      | blue                             | orange               |
-| small    | black                            | white                |
-
-Table: A table with merged cells using the `attributes` plugin.
-{#tbl: merged-cells}
-
-## Equations
-
-A LaTeX equation:
-
-$$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$ {#eq:regular-equation}
-
-An equation too long to fit within page:
-
-$$x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$$ {#eq:long-equation}
-
-## Special
-
-<i class="fas fa-exclamation-triangle"></i> [WARNING]{.semibold} _The following features are only supported and intended for `.html` and `.pdf` exports._
-_Journals are not likely to support them, and they may not display correctly when converted to other formats such as `.docx`._
-
-[Link styled as a button](https://manubot.org "Manubot Homepage"){.button}
-
-Adding arbitrary HTML attributes to an element using Pandoc's attribute syntax:
-
-::: {#some_id_1 .some_class style="background: #ad1457; color: white; margin-left: 40px;" title="a paragraph of text" data-color="white" disabled="true"}
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-:::
-
-Adding arbitrary HTML attributes to an element with the Manubot `attributes` plugin (more flexible than Pandoc's method in terms of which elements you can add attributes to):
-
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-<!-- $id="element_id" class="some_class" $style="color: #ad1457; margin-left: 40px;" $disabled="true" $title="a paragraph of text" $data-color="red" -->
-
-Available background colors for text, images, code, banners, etc:  
-
-`white`{.white}
-`lightgrey`{.lightgrey}
-`grey`{.grey}
-`darkgrey`{.darkgrey}
-`black`{.black}
-`lightred`{.lightred}
-`lightyellow`{.lightyellow}
-`lightgreen`{.lightgreen}
-`lightblue`{.lightblue}
-`lightpurple`{.lightpurple}
-`red`{.red}
-`orange`{.orange}
-`yellow`{.yellow}
-`green`{.green}
-`blue`{.blue}
-`purple`{.purple}
-
-Using the [Font Awesome](https://fontawesome.com/) icon set:
-
-<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-
-<i class="fas fa-check"></i> <i class="fas fa-question"></i> <i class="fas fa-star"></i> <i class="fas fa-bell"></i> <i class="fas fa-times-circle"></i> <i class="fas fa-ellipsis-h"></i>
-
-[
-<i class="fas fa-scroll fa-lg"></i> **Light Grey Banner**<br>
-useful for *general information* - [manubot.org](https://manubot.org/)
-]{.banner .lightgrey}
-
-[
-<i class="fas fa-info-circle fa-lg"></i> **Blue Banner**<br>
-useful for *important information* - [manubot.org](https://manubot.org/)
-]{.banner .lightblue}
-
-[
-<i class="fas fa-ban fa-lg"></i> **Light Red Banner**<br>
-useful for *warnings* - [manubot.org](https://manubot.org/)
-]{.banner .lightred}
 
 
 ## References {.page_break_before}
