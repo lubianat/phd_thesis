@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-04-07'
+date-meta: '2021-04-09'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-04-07" />
-  <meta name="citation_publication_date" content="2021-04-07" />
+  <meta name="dc.date" content="2021-04-09" />
+  <meta name="citation_publication_date" content="2021-04-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/e71b880eeca6bce253fd3bec701a8cff67be81f3/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/e71b880eeca6bce253fd3bec701a8cff67be81f3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/e71b880eeca6bce253fd3bec701a8cff67be81f3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/1f37c0b03e7a92d7be16cb47ef39ec2ba7af17c9/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/1f37c0b03e7a92d7be16cb47ef39ec2ba7af17c9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/1f37c0b03e7a92d7be16cb47ef39ec2ba7af17c9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/e71b880eeca6bce253fd3bec701a8cff67be81f3/))
+([permalink](https://lubianat.github.io/phd_thesis/v/1f37c0b03e7a92d7be16cb47ef39ec2ba7af17c9/))
 was automatically generated
-from [lubianat/phd_thesis@e71b880](https://github.com/lubianat/phd_thesis/tree/e71b880eeca6bce253fd3bec701a8cff67be81f3)
-on April 7, 2021.
+from [lubianat/phd_thesis@1f37c0b](https://github.com/lubianat/phd_thesis/tree/1f37c0b03e7a92d7be16cb47ef39ec2ba7af17c9)
+on April 9, 2021.
 </em></small>
 
 ## Authors
@@ -273,17 +273,57 @@ Order may be changed at a later step.
       
 
 
+
+# Abstract
+The Human Cell Atlas is an international effort aiming at characterizing every cell type of the human body. 
+Employing techniques such as single-cell RNA sequencing, mass cytometry, and multiplexed in situ hybridization, it will produce data from virtually all human tissues. 
+This wealth of data can have a significant impact on biomedical research, but only if its content is genuinely available.
+Wikidata is a knowledge graph database emerging as a FAIR (Findable, Accessible, Interoperable and Reusable) repository for biological knowledge. 
+The formatting and deployment of information from the Human Cell Atlas to Wikidata can increase information availability and impact, by inserting the findings in a network containing multiple associations of concepts of all areas of knowledge (within and outside science). 
+Conceptually defining cell types in a general and applicable concept, formalized into a database-compatible format, is a massive theoretical challenge. 
+This PhD project aims at studying our current understanding of cell types for development a comprehensive ontological model in Wikidata for cell types. 
+We will review the single-cell literature, refining and formalizing concepts for cell type delimitation. Furthermore, we will use Natural Language Processing and Machine Learning tools to automate knowledge extraction from scientific articles in the scope of the Human Cell Atlas. 
+In an advanced step, we will apply concepts of network theory to develop tools for user-friendly querying of the database, making the knowledge ready for the academic community. 
+
 # Introduction
 
 
-## The Human Cell Atlas 
-* Data interoperability challenges
-* Data interoperability challenges
-* knowledge interoperability challenges
+<!-- 1.4. The challenges of the Human Cell Atlas -->
+## The Human Cell Atlas (HCA) Project
 
-Some of the interoperability challenges fit within the larger quest to extract and integrate literature knowledge. 
-Biocuration and literature based discovery. 
+<!-- 1.4.1. The Human Cell Atlas project and its scope -->
+<!-- 1.4.1.1. Participants -->
+The advent of single-cell technologies has ignited the desire of a deep knowledge on cells, the building blocks of life [@wikidata:Q99418649]. 
+The Human Cell Atlas (HCA) project, has been a major player in the cell knowledge ecosystem, running since 2017 towards the task to characterize every cell type in the human body [@wikidata:Q46368626]. The HCA consortium recruited people from all over the world to tackle different parts of the project. In Brazil, Prof. Helder Nakaya (supervisor of this PhD project) is leading the national effort to contribute to HCA, with a focus on the roles of different cell types in the pathological processes of infectious and inflammatory diseases.
 
+<!-- - 1.4.1.2. Overview of main analytical techniques  -->
+Building a full atlas of human cells comes with multiple challenges. The project includes detection, in single cells, of RNA content (scRNA-Seq), chromatin accessibility (scATAC-Seq), and protein markers (primarily by CYTOF), as well as spatial information on cells with multiplexed _in situ_ hybridization (such as MERFISH) and imaging mass cytometry [@wikidata:Q46368626 ;@wikidata:Q104450645]. Every lab will contribute with its expertise, providing samples that are representative of human diversity.
+
+HCA is set to revolutionize the biomedical sciences, by creating tools and standards for basic research, as well as allowing better characterization of disease, and thus, ultimately, improving diagnostics and therapy. 
+Its products (data, information, knowledge and wisdom) need to be FAIR: findable, accessible, interoperable and reusable.
+Data stewardship and data management are growing as core demands of the scientific community, ranging from data management plans [@wikidata:Q56524391] to specialized personnel [@wikidata:Q56524391].
+
+<!-- 1.4.3. Data availability -->
+<!-- - 1.4.3.1. As coordinated by the Human Cell Atlas -->
+The Human Cell Atlas has a dedicated team for organizing data: the Data Coordination Platform (DCP) [@url:https://data.humancellatlas.org/about] [@wikidata:Q104450645].
+The DCP is responsible for tracing the plan for computational interoperability, from the data generators to the consumers.[@wikidata:Q104450645].
+The Human Cell Atlas  has its portal for data (<https://data.humancellatlas.org/>) which composes the data repository landscape with other resources, like the Broad Institute Single Cell Portal (<https://singlecell.broadinstitute.org/single_cell>) and the Chan-Zuckerberg Biohub Tabula Sapiens (<https://tabula-sapiens-portal.ds.czbiohub.org/>). 
+In addition to its core team, the HCA is poised to grow by community interaction, and states in its opening paper that "As with the Human Genome Project, a robust plan will best emerge from wide-ranging scientific discussions and careful planning".[@wikidata:Q46368626]  
+Thus, this project inserts itself among the wide-ranging scientific discussions to improve data - and knowledge - interoperability. 
+
+The highlight of "knowledge" in the last paragraph is meant to stress that data _per se_ is not enough. 
+There is a long way from raw datasets to commonly agreed scientific knowledge. 
+And, ultimately, this long way is what allows humanity to take advantage of scientific endeavors.
+Currently, the gap between data and knowledge is mostly targeted via the writing and sharing of scientific manuscripts, the _de facto_ currency of exchange of claims about the natural world. 
+The Human Cell Atlas Publication Commitee reviews and selects publications that are directly part of the HCA.
+A set of publications is, thus, one of the major outputs of the whole endeavor.
+
+
+The challenge that arises, thus, is one of managing a wealth of information and cast it into useful science.
+Experimental articles that analyze thousands of cells pose an overload of information alone. 
+Ideally, we would like to understand, remember and make use of every statement produced by the HCA.
+As this goal is humanely impossible, we need to develop tools to make the knowledge interoperable with the aid of computers. 
+At that point, the challenges of the HCA enter in resonance with the challenges of text-mining, biocuration and literature based discovery, which will be discussed in the chapter <!-- - 1.1. The quest for interoperable knowledge --> of this introduction. 
 ## Literature Based Discovery, hidden knowledge and text-mining
 
 * Tsunami of knowledge - o parse,  connect and benefit society
