@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-04-09'
+date-meta: '2021-04-17'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-04-09" />
-  <meta name="citation_publication_date" content="2021-04-09" />
+  <meta name="dc.date" content="2021-04-17" />
+  <meta name="citation_publication_date" content="2021-04-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/1f37c0b03e7a92d7be16cb47ef39ec2ba7af17c9/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/1f37c0b03e7a92d7be16cb47ef39ec2ba7af17c9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/1f37c0b03e7a92d7be16cb47ef39ec2ba7af17c9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/58a71b04049f6095b68f9caedfc08b8895ee2c2c/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/58a71b04049f6095b68f9caedfc08b8895ee2c2c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/58a71b04049f6095b68f9caedfc08b8895ee2c2c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/1f37c0b03e7a92d7be16cb47ef39ec2ba7af17c9/))
+([permalink](https://lubianat.github.io/phd_thesis/v/58a71b04049f6095b68f9caedfc08b8895ee2c2c/))
 was automatically generated
-from [lubianat/phd_thesis@1f37c0b](https://github.com/lubianat/phd_thesis/tree/1f37c0b03e7a92d7be16cb47ef39ec2ba7af17c9)
-on April 9, 2021.
+from [lubianat/phd_thesis@58a71b0](https://github.com/lubianat/phd_thesis/tree/58a71b04049f6095b68f9caedfc08b8895ee2c2c)
+on April 17, 2021.
 </em></small>
 
 ## Authors
@@ -212,6 +212,7 @@ Order may be changed at a later step.
 - 2.4.5.2. The use of the concept in metadata and knowledgebases
 - 2.4.5.3. The use of the concept in ontologies
 - 2.4.5.4. Wikidata and consensus-determined rigorously undefined concepts
+- 2.4.6. Claims of novel cell types
     
 - 2.5. The concept of "protein"
 - 2.5.1. Proteins, proteins families and protein molecules

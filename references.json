@@ -12,7 +12,7 @@
         [
           "2021",
           4,
-          9
+          17
         ]
       ]
     },
@@ -38,15 +38,15 @@
       },
       {
         "family": "Stubbington",
-        "given": "Michael"
+        "given": "Michael J. T."
       },
       {
         "family": "Ardlie",
         "given": "Kristin"
       },
       {
-        "family": "Amit",
-        "given": "Ido"
+        "family": "Giladi",
+        "given": "Amir"
       },
       {
         "family": "Arlotta",
@@ -90,7 +90,7 @@
       },
       {
         "family": "Clatworthy",
-        "given": "Menna"
+        "given": "Menna R."
       },
       {
         "family": "Clevers",
@@ -262,7 +262,7 @@
       },
       {
         "family": "Schiller",
-        "given": "Herbert"
+        "given": "Herbert B."
       },
       {
         "family": "Scott",
@@ -270,7 +270,7 @@
       },
       {
         "family": "Shalek",
-        "given": "Alex"
+        "given": "Alex K."
       },
       {
         "family": "Shapiro",
@@ -385,8 +385,8 @@
         "given": "Eric"
       },
       {
-        "family": "Amit",
-        "given": "Ido"
+        "family": "Giladi",
+        "given": "Amir"
       },
       {
         "family": "Benoist",
@@ -410,7 +410,7 @@
       },
       {
         "family": "Clatworthy",
-        "given": "Menna"
+        "given": "Menna R."
       },
       {
         "family": "Clevers",
@@ -554,7 +554,7 @@
       },
       {
         "family": "Shalek",
-        "given": "Alex"
+        "given": "Alex K."
       },
       {
         "family": "Shapiro",
