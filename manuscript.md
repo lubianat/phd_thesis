@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/d9bc7621d02b6cc627562cb203385e11c0140ace/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/d9bc7621d02b6cc627562cb203385e11c0140ace/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/d9bc7621d02b6cc627562cb203385e11c0140ace/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/1a3070c2b38441284536bd6782a52ef0f2121721/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/1a3070c2b38441284536bd6782a52ef0f2121721/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/1a3070c2b38441284536bd6782a52ef0f2121721/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/d9bc7621d02b6cc627562cb203385e11c0140ace/))
+([permalink](https://lubianat.github.io/phd_thesis/v/1a3070c2b38441284536bd6782a52ef0f2121721/))
 was automatically generated
-from [lubianat/phd_thesis@d9bc762](https://github.com/lubianat/phd_thesis/tree/d9bc7621d02b6cc627562cb203385e11c0140ace)
+from [lubianat/phd_thesis@1a3070c](https://github.com/lubianat/phd_thesis/tree/1a3070c2b38441284536bd6782a52ef0f2121721)
 on April 17, 2021.
 </em></small>
 
@@ -230,7 +230,7 @@ Order may be changed at a later step.
 - 3.1.1. PanglaoDB
 - 3.1.2. Other bases of markers
 - 3.1.3. WikidataMarkers: a website and an R packase for cell type gene sets
-- 3.1.4 Cell-Disease networks via Wikidata
+- 3.1.4. Cell-Disease networks via Wikidata
    
 - 3.2. Community annotation of texts via Wikidata 
 - 3.2.1. Pilot: Annotation of the Human Cell Atlas corpus
