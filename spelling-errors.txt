@@ -2,7 +2,7 @@ Abount
 Alexa
 attractors
 bibliometric
-biocuration
+Biocuration
 biocurators
 Biohub
 bioinformatics
@@ -21,7 +21,7 @@ Descriptional
 facto
 FCBF
 fcoex
-findable
+Findable
 gamified
 HCA
 Helder
@@ -65,6 +65,7 @@ stritu
 Tabula
 technotype
 technotypes
+transcriptomics
 UBERON
 UMLS
 WikidataMarkers

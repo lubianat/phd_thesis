@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/00a1f1270562c308f5f211282e54815c0003614a/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/00a1f1270562c308f5f211282e54815c0003614a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/00a1f1270562c308f5f211282e54815c0003614a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/09805278926679eb6b7f4ea8225e61198fe04935/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/09805278926679eb6b7f4ea8225e61198fe04935/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/09805278926679eb6b7f4ea8225e61198fe04935/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/00a1f1270562c308f5f211282e54815c0003614a/))
+([permalink](https://lubianat.github.io/phd_thesis/v/09805278926679eb6b7f4ea8225e61198fe04935/))
 was automatically generated
-from [lubianat/phd_thesis@00a1f12](https://github.com/lubianat/phd_thesis/tree/00a1f1270562c308f5f211282e54815c0003614a)
+from [lubianat/phd_thesis@0980527](https://github.com/lubianat/phd_thesis/tree/09805278926679eb6b7f4ea8225e61198fe04935)
 on April 19, 2021.
 </em></small>
 
@@ -268,6 +268,8 @@ Order may be changed at a later step.
 - 3.10 Minimal Information Abount New Cell Classes
 
 - 3.11 The Cell Wiki Project
+
+- 3.12 Linked GEO and curation of transcriptomics datasets
       
 - 0 Master's projects
 - 0.1 fcoex & FCBF
