@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-04-17'
+date-meta: '2021-04-19'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-04-17" />
-  <meta name="citation_publication_date" content="2021-04-17" />
+  <meta name="dc.date" content="2021-04-19" />
+  <meta name="citation_publication_date" content="2021-04-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/1a3070c2b38441284536bd6782a52ef0f2121721/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/1a3070c2b38441284536bd6782a52ef0f2121721/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/1a3070c2b38441284536bd6782a52ef0f2121721/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/00a1f1270562c308f5f211282e54815c0003614a/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/00a1f1270562c308f5f211282e54815c0003614a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/00a1f1270562c308f5f211282e54815c0003614a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/1a3070c2b38441284536bd6782a52ef0f2121721/))
+([permalink](https://lubianat.github.io/phd_thesis/v/00a1f1270562c308f5f211282e54815c0003614a/))
 was automatically generated
-from [lubianat/phd_thesis@1a3070c](https://github.com/lubianat/phd_thesis/tree/1a3070c2b38441284536bd6782a52ef0f2121721)
-on April 17, 2021.
+from [lubianat/phd_thesis@00a1f12](https://github.com/lubianat/phd_thesis/tree/00a1f1270562c308f5f211282e54815c0003614a)
+on April 19, 2021.
 </em></small>
 
 ## Authors
@@ -266,6 +266,8 @@ Order may be changed at a later step.
 - 3.9 Semantic Systems and Synthetic Biology
 
 - 3.10 Minimal Information Abount New Cell Classes
+
+- 3.11 The Cell Wiki Project
       
 - 0 Master's projects
 - 0.1 fcoex & FCBF

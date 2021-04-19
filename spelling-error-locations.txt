@@ -52,10 +52,10 @@ content/001.index.md:162:metascientific
 content/001.index.md:162:Scholia
 content/001.index.md:164:biocuration
 content/001.index.md:168:Abount
-content/001.index.md:171:FCBF
-content/001.index.md:171:fcoex
-content/001.index.md:172:Alexa
-content/001.index.md:173:PubScore
+content/001.index.md:173:FCBF
+content/001.index.md:173:fcoex
+content/001.index.md:174:Alexa
+content/001.index.md:175:PubScore
 content/010.abstract.md:4:cytometry
 content/010.abstract.md:4:situ
 content/010.abstract.md:6:Findable

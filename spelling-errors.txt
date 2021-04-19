@@ -2,7 +2,7 @@ Abount
 Alexa
 attractors
 bibliometric
-Biocuration
+biocuration
 biocurators
 Biohub
 bioinformatics
@@ -27,7 +27,7 @@ HCA
 Helder
 infratype
 Infratypes
-Interoperable
+interoperable
 janeroe
 johndoe
 knowledgebases
