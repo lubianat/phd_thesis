@@ -1,7 +1,7 @@
 Alexa
 attractors
 bibliometric
-Biocuration
+biocuration
 biocurators
 Biohub
 bioinformatics

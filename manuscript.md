@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/e1a7512d076ca50bed58cd926d3d8e4620ce1fcb/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/e1a7512d076ca50bed58cd926d3d8e4620ce1fcb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/e1a7512d076ca50bed58cd926d3d8e4620ce1fcb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/06b2fc56d341061589f45f2448417e4c8c793870/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/06b2fc56d341061589f45f2448417e4c8c793870/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/06b2fc56d341061589f45f2448417e4c8c793870/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/e1a7512d076ca50bed58cd926d3d8e4620ce1fcb/))
+([permalink](https://lubianat.github.io/phd_thesis/v/06b2fc56d341061589f45f2448417e4c8c793870/))
 was automatically generated
-from [lubianat/phd_thesis@e1a7512](https://github.com/lubianat/phd_thesis/tree/e1a7512d076ca50bed58cd926d3d8e4620ce1fcb)
+from [lubianat/phd_thesis@06b2fc5](https://github.com/lubianat/phd_thesis/tree/06b2fc56d341061589f45f2448417e4c8c793870)
 on April 21, 2021.
 </em></small>
 
@@ -277,7 +277,9 @@ Order may be changed at a later step.
 - 0.2 Alexa
 - 0.3 PubScore
     
-      
+# Other tags
+
+- X.1 - Phrase to quote
 
 
 
