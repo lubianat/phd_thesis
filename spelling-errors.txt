@@ -1,7 +1,7 @@
 Alexa
 attractors
 bibliometric
-Biocuration
+biocuration
 biocurators
 Biohub
 bioinformatics
@@ -21,13 +21,13 @@ Differentia
 facto
 FCBF
 fcoex
-Findable
+findable
 gamified
 HCA
 Helder
 infratype
 Infratypes
-Interoperable
+interoperable
 janeroe
 johndoe
 knowledgebases

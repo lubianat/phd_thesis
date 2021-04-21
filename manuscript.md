@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/6763f4cdf4c950bcb5bc5f08353815b6976baa6c/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/6763f4cdf4c950bcb5bc5f08353815b6976baa6c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/6763f4cdf4c950bcb5bc5f08353815b6976baa6c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/b1b3ecc7c6a3f8d3c883b880a977385c21578381/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/b1b3ecc7c6a3f8d3c883b880a977385c21578381/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/b1b3ecc7c6a3f8d3c883b880a977385c21578381/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/6763f4cdf4c950bcb5bc5f08353815b6976baa6c/))
+([permalink](https://lubianat.github.io/phd_thesis/v/b1b3ecc7c6a3f8d3c883b880a977385c21578381/))
 was automatically generated
-from [lubianat/phd_thesis@6763f4c](https://github.com/lubianat/phd_thesis/tree/6763f4cdf4c950bcb5bc5f08353815b6976baa6c)
+from [lubianat/phd_thesis@b1b3ecc](https://github.com/lubianat/phd_thesis/tree/b1b3ecc7c6a3f8d3c883b880a977385c21578381)
 on April 21, 2021.
 </em></small>
 
@@ -218,6 +218,8 @@ Order may be changed at a later step.
 - 2.4.7.2 Differentia for cell classes: strains and subspecific groups
 - 2.4.7.3 Differentia for cell classes: age and life stage
 - 2.4.7.4 Differentia for cell classes: circadian clock
+- 2.4.7.5 Differentia for cell classes: presence in organ
+- 2.4.7.5 Differentia for cell classes: sub-organ regions
     
 - 2.5. The concept of "protein"
 - 2.5.1. Proteins, proteins families and protein molecules
