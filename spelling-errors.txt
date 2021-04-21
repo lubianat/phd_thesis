@@ -1,7 +1,7 @@
 Alexa
 attractors
 bibliometric
-biocuration
+Biocuration
 biocurators
 Biohub
 bioinformatics
@@ -17,10 +17,11 @@ dataset
 datasets
 DCP
 Descriptional
+Differentia
 facto
 FCBF
 fcoex
-findable
+Findable
 gamified
 HCA
 Helder
@@ -61,6 +62,7 @@ situ
 SPARQL
 stricto
 stritu
+subspecific
 Tabula
 technotype
 technotypes
