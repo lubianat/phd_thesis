@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-04-21'
+date-meta: '2021-04-25'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-04-21" />
-  <meta name="citation_publication_date" content="2021-04-21" />
+  <meta name="dc.date" content="2021-04-25" />
+  <meta name="citation_publication_date" content="2021-04-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/b1b3ecc7c6a3f8d3c883b880a977385c21578381/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/b1b3ecc7c6a3f8d3c883b880a977385c21578381/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/b1b3ecc7c6a3f8d3c883b880a977385c21578381/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/b1b3ecc7c6a3f8d3c883b880a977385c21578381/))
+([permalink](https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/))
 was automatically generated
-from [lubianat/phd_thesis@b1b3ecc](https://github.com/lubianat/phd_thesis/tree/b1b3ecc7c6a3f8d3c883b880a977385c21578381)
-on April 21, 2021.
+from [lubianat/phd_thesis@3fb6ad6](https://github.com/lubianat/phd_thesis/tree/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4)
+on April 25, 2021.
 </em></small>
 
 ## Authors
@@ -220,6 +220,7 @@ Order may be changed at a later step.
 - 2.4.7.4 Differentia for cell classes: circadian clock
 - 2.4.7.5 Differentia for cell classes: presence in organ
 - 2.4.7.5 Differentia for cell classes: sub-organ regions
+- 2.4.7.6 Differentia for cell classes: disease condition 
     
 - 2.5. The concept of "protein"
 - 2.5.1. Proteins, proteins families and protein molecules

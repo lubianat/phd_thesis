@@ -21,13 +21,13 @@ Differentia
 facto
 FCBF
 fcoex
-findable
+Findable
 gamified
 HCA
 Helder
 infratype
 Infratypes
-interoperable
+Interoperable
 janeroe
 johndoe
 knowledgebases
