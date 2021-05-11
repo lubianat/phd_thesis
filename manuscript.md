@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-04-25'
+date-meta: '2021-05-11'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-04-25" />
-  <meta name="citation_publication_date" content="2021-04-25" />
+  <meta name="dc.date" content="2021-05-11" />
+  <meta name="citation_publication_date" content="2021-05-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/53cfb872312627258d3b873a5c40c0da9c42e908/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/53cfb872312627258d3b873a5c40c0da9c42e908/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/53cfb872312627258d3b873a5c40c0da9c42e908/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/))
+([permalink](https://lubianat.github.io/phd_thesis/v/53cfb872312627258d3b873a5c40c0da9c42e908/))
 was automatically generated
-from [lubianat/phd_thesis@3fb6ad6](https://github.com/lubianat/phd_thesis/tree/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4)
-on April 25, 2021.
+from [lubianat/phd_thesis@53cfb87](https://github.com/lubianat/phd_thesis/tree/53cfb872312627258d3b873a5c40c0da9c42e908)
+on May 11, 2021.
 </em></small>
 
 ## Authors
@@ -115,6 +115,7 @@ Order may be changed at a later step.
    
 - 1.1. The quest for interoperable knowledge
 - 1.1.1. Literature Based Discovery, hidden knowledge and text-mining
+- 1.1.1.1. Literature Based Discovery (explicitly)
 - 1.1.2. Interoperable data: dataset integration
 - 1.1.3. Interoperable publication processes: nanopublications 
 
@@ -254,6 +255,7 @@ Order may be changed at a later step.
 - 3.4.2. scRNA-seq metadata reconciliation
 - 3.4.2.1. COVID-19 cell types collection
 - 3.4.2.2. Other single-cell RNA-seq datasets
+- 3.4.2.3. Cell-disease networks inferred from Wikidata
          
 - 3.5. Practical applications of a pragmatic cell type definition in 2.4.4
 - 3.5.1. Basic dictionary for cell type identification based on regular expression of cell type markers
@@ -342,14 +344,61 @@ Ideally, we would like to understand, remember and make use of every statement p
 As this goal is humanely impossible, we need to develop tools to make the knowledge interoperable with the aid of computers. 
 At that point, the challenges of the HCA enter in resonance with the challenges of text-mining, biocuration and literature based discovery, which will be discussed in the chapter <!-- - 1.1. The quest for interoperable knowledge --> of this introduction. 
 ## Literature Based Discovery, hidden knowledge and text-mining
+ <!-- - 1.1. The quest for interoperable knowledge -->
+It is not recent news that the amount of scholar information vastly outnumbers what single researchers can fathom. 
+Nevertheless, the gap between single individuals and the collectively body of knowledge has been widening in 
+an accelerated fashion.
+The explosion in the number of published articles is leading to a "tsunami of knowlegde",
+flooding the scientific literature with rich information. 
+Moreover, articles themselves are becoming denser, as high-throughput (and high-information) technologies
+like single-cell RNA-sequencing get cheaper and widely used. 
 
-* Tsunami of knowledge - o parse,  connect and benefit society
-* Literature based discovery is a way to connect knowledge
-  * Biocuration and organization
-  * Actual processing of the curated information
+ <!-- - 1.1. The quest for interoperable knowledge -->
+ <!-- - 1.2.3. Web of Data and Linked Open Data -->
+The technological advances, however, are no yet met by equivalent knowledge-handling systems.
+Mainstream scientific publication is, nowadays, barely readable by machines.
+Articles are written for human consumption, using ambiguous natural language and relying on implicit conventions. 
+Tables and data rarely make use of URI (Uniform Resource Identifiers), RDF (Resource Description Framework) formating and other W3C (World Wide Web Standards). 
+In fact, those standards and their acronyms are completely foreign for most life scientists (personal observations), despite
+being the _de jure_ gold standard for data quality. [@url:https://5stardata.info/en/]
+Thus, interconnecting biomedical knowledge is an open challenge of our century, and there is a large way to go
+before society can fully benefit from the sum of all knowledge we generate. 
+
+<!--- 1.1.1. Literature Based Discovery, hidden knowledge and text-mining -->
+The scientific community has pursue solutions for this tsunami of information from many different angles. 
+Narrative reviews, systematic reviews and textbooks compile and synthetize information, providing a layer of processing. 
+Biocuration efforts go a step further and transform unstructured information into structered information
+in knowledgebases, such as UniProt and PDB. 
+Text-mining apply a range of Natural Language Processing tools to try and extract biological relations,
+or provide guidance for biocurators. 
+Elaborate knowlegde networks, like the STRING database [@wikidata:Q102383784] and Wikidata[@wikidata:Q87830400], 
+combine information from different sources. 
+Overall, approaches mix and intermingle to mature hidden knowledge into solid theories and practical applications. 
+
+<!-- - 1.1.1.1. Literature Based Discovery (explicitly) --->
+
+The synthesis effort of literature mining goes beyond purely detecting what science claims to be true. 
+Interconnected knowledge provides a way to discover new, implicit knowledge, by applying logical reasoning to a dataset. 
+A field denominated Literature Based Discovery [@url:https://en.wikipedia.org/wiki/Literature-based_discovery] dedicates itself to this challenge: make actual discoveries (or at least very strong hypothesis) using as material plainly the existing literature. [@wikidata:Q38371706]
+The textbook example of Literature Based Discovery is described by Don Swanson's so-called ABC model: If A is related do B, and B is related to C, then A and C are indirectly related [@wikidata:Q36280460]
+In a seminal paper, Swanson showed an hypothesis about using fish oil (A) to treat Raynauld's disease (C), demonstrating that even though the specialized fish-oil (A) literature had shown its association (AB) with a set of blood parameters (B), and the specialized Raynauld's disease literature had show its association (BC) with the same set of parameters (B), the AC link was never made in the literature, despite its seeming obviousness [@wikidata:Q36280460]
+
+<!--- 1.1.1. Literature Based Discovery, hidden knowledge and text-mining -->
+
+Modern advancements of literature-based discovery rely on Natural Language Processing, Machine Learning and Knowledge graphs to make inferences on literature knowledge.
+Word embeddings, for example, are leading inference of properties of compounds based on their shared neighbourhood of words (the words before and after their mentiongs) with known compounds, thus making use of latent knowledge in the body of knowledge. [@wikidata:Q91595456]
+Other, more explicit approaches, rely on extracted relations embedded in knowledge graphs,fo example, the discovery of new RNA-binding proteins related to Amyotrophic Lateral Sclerosis by analysis of the Watson Drug Discovery gene-disease network. [@wikidata:Q47406275]
+
+Knowledge graphs have a set of characteristics that make then useful for Literature Based Discovery: the power of representing multiple relations, the power of making inferences on top of those relations, and provide human understandability at every step, allowing for a dialog between expert humans and computing systems.
+The field of biomedical ontologies explores that direction in depth, and the community is building many solutions, widely applicable for the biomedical sciences.
+
+
+For the Human Cell Atlas Project (as presented in the chapter <!-- 1.4. The challenges of the Human Cell Atlas -->) to maximize its benefit for society,  its knowledge products will need to be inserted into the main route of automated knowledge discovery . 
+That implies a daunting task of building knowledge graphs able to deal with it at all layers, including the generated data and metadata, its range of different protocols, and the purified knowledge projects that are enshrined in publications.
+Thus, the chapter <!-- - 1.2. Formal representation of knowledge and - 1.3. Knowledge Representation in biology -->  will present challenges and paths for applying literature based discovery on an enormous scale and with sufficient flexibility to deal with the Human Cell Atlas. 
 
 ## Knowledge graphs as tools for interoperability
-
+<!-- - 1.2. Formal representation of knowledge and - 1.3. Knowledge Representation in biology --> 
 * The OBO Foundry and biomedical ontologies
 
 * Knowledge graphs and a different approach to biomedical semantics
