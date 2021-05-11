@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2021-04-25" />
+  <meta name="dcterms.date" content="2021-05-11" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Manuscript Title</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-04-25" />
-  <meta name="citation_publication_date" content="2021-04-25" />
+  <meta name="dc.date" content="2021-05-11" />
+  <meta name="citation_publication_date" content="2021-05-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/phd_thesis/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/phd_thesis/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/phd_thesis/v/53cfb872312627258d3b873a5c40c0da9c42e908/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/phd_thesis/v/53cfb872312627258d3b873a5c40c0da9c42e908/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/phd_thesis/v/53cfb872312627258d3b873a5c40c0da9c42e908/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lubianat.github.io/phd_thesis/v/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4/">permalink</a>)
+(<a href="https://lubianat.github.io/phd_thesis/v/53cfb872312627258d3b873a5c40c0da9c42e908/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lubianat/phd_thesis/tree/3fb6ad6c904cc017467c7baebeb6bc7b7c951ca4">lubianat/phd_thesis@3fb6ad6</a>
-on April 25, 2021.
+from <a href="https://github.com/lubianat/phd_thesis/tree/53cfb872312627258d3b873a5c40c0da9c42e908">lubianat/phd_thesis@53cfb87</a>
+on May 11, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -106,6 +106,7 @@ Department of Something, University of Whatever; Department of Whatever, Univers
 </ol></li>
 <li><p>1.1. The quest for interoperable knowledge</p></li>
 <li><p>1.1.1. Literature Based Discovery, hidden knowledge and text-mining</p></li>
+<li><p>1.1.1.1. Literature Based Discovery (explicitly)</p></li>
 <li><p>1.1.2. Interoperable data: dataset integration</p></li>
 <li><p>1.1.3. Interoperable publication processes: nanopublications</p></li>
 <li><p>1.2. Formal representation of knowledge</p></li>
@@ -233,6 +234,7 @@ Department of Something, University of Whatever; Department of Whatever, Univers
 <li><p>3.4.2. scRNA-seq metadata reconciliation</p></li>
 <li><p>3.4.2.1. COVID-19 cell types collection</p></li>
 <li><p>3.4.2.2. Other single-cell RNA-seq datasets</p></li>
+<li><p>3.4.2.3. Cell-disease networks inferred from Wikidata</p></li>
 <li><p>3.5. Practical applications of a pragmatic cell type definition in 2.4.4</p></li>
 <li><p>3.5.1. Basic dictionary for cell type identification based on regular expression of cell type markers</p></li>
 <li><p>3.5.2. R package for suggestion of cell-type rules based on Seurat clusters</p></li>
@@ -298,16 +300,52 @@ Experimental articles that analyze thousands of cells pose an overload of inform
 Ideally, we would like to understand, remember and make use of every statement produced by the HCA.
 As this goal is humanely impossible, we need to develop tools to make the knowledge interoperable with the aid of computers.
 At that point, the challenges of the HCA enter in resonance with the challenges of text-mining, biocuration and literature based discovery, which will be discussed in the chapter <!-- - 1.1. The quest for interoperable knowledge --> of this introduction.
-## Literature Based Discovery, hidden knowledge and text-mining</p>
-<ul>
-<li>Tsunami of knowledge - o parse, connect and benefit society</li>
-<li>Literature based discovery is a way to connect knowledge
-<ul>
-<li>Biocuration and organization</li>
-<li>Actual processing of the curated information</li>
-</ul></li>
-</ul>
+## Literature Based Discovery, hidden knowledge and text-mining
+<!-- - 1.1. The quest for interoperable knowledge -->
+It is not recent news that the amount of scholar information vastly outnumbers what single researchers can fathom.
+Nevertheless, the gap between single individuals and the collectively body of knowledge has been widening in
+an accelerated fashion.
+The explosion in the number of published articles is leading to a “tsunami of knowlegde”,
+flooding the scientific literature with rich information.
+Moreover, articles themselves are becoming denser, as high-throughput (and high-information) technologies
+like single-cell RNA-sequencing get cheaper and widely used.</p>
+<p><!-- - 1.1. The quest for interoperable knowledge -->
+<!-- - 1.2.3. Web of Data and Linked Open Data -->
+The technological advances, however, are no yet met by equivalent knowledge-handling systems.
+Mainstream scientific publication is, nowadays, barely readable by machines.
+Articles are written for human consumption, using ambiguous natural language and relying on implicit conventions.
+Tables and data rarely make use of URI (Uniform Resource Identifiers), RDF (Resource Description Framework) formating and other W3C (World Wide Web Standards).
+In fact, those standards and their acronyms are completely foreign for most life scientists (personal observations), despite
+being the <em>de jure</em> gold standard for data quality. <span class="citation" data-cites="UI1dtNSw">[<a href="#ref-UI1dtNSw" role="doc-biblioref">6</a>]</span>
+Thus, interconnecting biomedical knowledge is an open challenge of our century, and there is a large way to go
+before society can fully benefit from the sum of all knowledge we generate.</p>
+<!--- 1.1.1. Literature Based Discovery, hidden knowledge and text-mining -->
+<p>The scientific community has pursue solutions for this tsunami of information from many different angles.
+Narrative reviews, systematic reviews and textbooks compile and synthetize information, providing a layer of processing.
+Biocuration efforts go a step further and transform unstructured information into structered information
+in knowledgebases, such as UniProt and PDB.
+Text-mining apply a range of Natural Language Processing tools to try and extract biological relations,
+or provide guidance for biocurators.
+Elaborate knowlegde networks, like the STRING database <span class="citation" data-cites="POzqtz7B">[<a href="#ref-POzqtz7B" role="doc-biblioref">7</a>]</span> and Wikidata<span class="citation" data-cites="3GqlN9Dk">[<a href="#ref-3GqlN9Dk" role="doc-biblioref">8</a>]</span>,
+combine information from different sources.
+Overall, approaches mix and intermingle to mature hidden knowledge into solid theories and practical applications.</p>
+<!-- - 1.1.1.1. Literature Based Discovery (explicitly) --->
+<p>The synthesis effort of literature mining goes beyond purely detecting what science claims to be true.
+Interconnected knowledge provides a way to discover new, implicit knowledge, by applying logical reasoning to a dataset.
+A field denominated Literature Based Discovery <span class="citation" data-cites="jXryyPLB">[<a href="#ref-jXryyPLB" role="doc-biblioref">9</a>]</span> dedicates itself to this challenge: make actual discoveries (or at least very strong hypothesis) using as material plainly the existing literature. <span class="citation" data-cites="Fuf8oc85">[<a href="#ref-Fuf8oc85" role="doc-biblioref">10</a>]</span>
+The textbook example of Literature Based Discovery is described by Don Swanson’s so-called ABC model: If A is related do B, and B is related to C, then A and C are indirectly related <span class="citation" data-cites="LNtevqb9">[<a href="#ref-LNtevqb9" role="doc-biblioref">11</a>]</span>
+In a seminal paper, Swanson showed an hypothesis about using fish oil (A) to treat Raynauld’s disease (C), demonstrating that even though the specialized fish-oil (A) literature had shown its association (AB) with a set of blood parameters (B), and the specialized Raynauld’s disease literature had show its association (BC) with the same set of parameters (B), the AC link was never made in the literature, despite its seeming obviousness <span class="citation" data-cites="LNtevqb9">[<a href="#ref-LNtevqb9" role="doc-biblioref">11</a>]</span></p>
+<!--- 1.1.1. Literature Based Discovery, hidden knowledge and text-mining -->
+<p>Modern advancements of literature-based discovery rely on Natural Language Processing, Machine Learning and Knowledge graphs to make inferences on literature knowledge.
+Word embeddings, for example, are leading inference of properties of compounds based on their shared neighbourhood of words (the words before and after their mentiongs) with known compounds, thus making use of latent knowledge in the body of knowledge. <span class="citation" data-cites="Lbqx9XBK">[<a href="#ref-Lbqx9XBK" role="doc-biblioref">12</a>]</span>
+Other, more explicit approaches, rely on extracted relations embedded in knowledge graphs,fo example, the discovery of new RNA-binding proteins related to Amyotrophic Lateral Sclerosis by analysis of the Watson Drug Discovery gene-disease network. <span class="citation" data-cites="CovO24JR">[<a href="#ref-CovO24JR" role="doc-biblioref">13</a>]</span></p>
+<p>Knowledge graphs have a set of characteristics that make then useful for Literature Based Discovery: the power of representing multiple relations, the power of making inferences on top of those relations, and provide human understandability at every step, allowing for a dialog between expert humans and computing systems.
+The field of biomedical ontologies explores that direction in depth, and the community is building many solutions, widely applicable for the biomedical sciences.</p>
+<p>For the Human Cell Atlas Project (as presented in the chapter <!-- 1.4. The challenges of the Human Cell Atlas -->) to maximize its benefit for society, its knowledge products will need to be inserted into the main route of automated knowledge discovery .
+That implies a daunting task of building knowledge graphs able to deal with it at all layers, including the generated data and metadata, its range of different protocols, and the purified knowledge projects that are enshrined in publications.
+Thus, the chapter <!-- - 1.2. Formal representation of knowledge and - 1.3. Knowledge Representation in biology --> will present challenges and paths for applying literature based discovery on an enormous scale and with sufficient flexibility to deal with the Human Cell Atlas.</p>
 <h2 id="knowledge-graphs-as-tools-for-interoperability">Knowledge graphs as tools for interoperability</h2>
+<!-- - 1.2. Formal representation of knowledge and - 1.3. Knowledge Representation in biology -->
 <ul>
 <li><p>The OBO Foundry and biomedical ontologies</p></li>
 <li><p>Knowledge graphs and a different approach to biomedical semantics</p></li>
@@ -407,7 +445,7 @@ these resources etc etc</li>
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
 <div id="ref-pNGap1Du">
 <p>1. <strong>An era of single-cell genomics consortia</strong> <br />
-Yoshinari Ando, Andrew Tae-Jun Kwon, Jay W. Shin<br />
+Yoshinari Ando, Andrew T. Kwon, Jay W. Shin<br />
 <em>Experimental and Molecular Medicine</em> (2020-09-15) <a href="https://www.wikidata.org/wiki/Q99418649">https://www.wikidata.org/wiki/Q99418649</a> <br />
 DOI: <a href="https://doi.org/10.1038/s12276-020-0409-x">10.1038/s12276-020-0409-x</a></p>
 </div>
@@ -419,7 +457,7 @@ DOI: <a href="https://doi.org/10.7554/elife.27041">10.7554/elife.27041</a></p>
 </div>
 <div id="ref-kkwRTArg">
 <p>3. <strong>The Human Cell Atlas White Paper</strong> <br />
-Aviv Regev, Sarah Teichmann, Orit Rozenblatt-Rosen, Michael J. T. Stubbington, Kristin Ardlie, Amir Giladi, Paola Arlotta, Gary Bader, Christophe Benoist, Moshe Biton, … Human Cell Atlas Organizing Committee<br />
+Aviv Regev, Sarah Teichmann, Orit Rozenblatt-Rosen, Michael J. T. Stubbington, Kristin Ardlie, Amir Giladi, Paola Arlotta, Gary D. Bader, Christophe Benoist, Moshe Biton, … Human Cell Atlas Organizing Committee<br />
 (2018-10-11) <a href="https://www.wikidata.org/wiki/Q104450645">https://www.wikidata.org/wiki/Q104450645</a></p>
 </div>
 <div id="ref-1DSEIjFha">
@@ -432,6 +470,50 @@ DOI: <a href="https://doi.org/10.1038/d41586-018-03065-z">10.1038/d41586-018-030
 <p>5. <strong>About the Data Coordination Platform</strong> <br />
 HCA Data Portal<br />
 <a href="https://data.humancellatlas.org/about/">https://data.humancellatlas.org/about/</a></p>
+</div>
+<div id="ref-UI1dtNSw">
+<p>6. <strong>5-star Open Data</strong> <a href="http://5stardata.info/en/">http://5stardata.info/en/</a></p>
+</div>
+<div id="ref-POzqtz7B">
+<p>7. <strong>The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets</strong> <br />
+Damian Szklarczyk, Annika L. Gable, Katerina C. Nastou, David Lyon, Rebecca Kirsch, Sampo Pyysalo, Nadezhda Tsankova Doncheva, Marc Legeay, Tao Fang, Peer Bork, … Christian von Mering<br />
+<em>Nucleic Acids Research</em> (2020-11-25) <a href="https://www.wikidata.org/wiki/Q102383784">https://www.wikidata.org/wiki/Q102383784</a> <br />
+DOI: <a href="https://doi.org/10.1093/nar/gkaa1074">10.1093/nar/gkaa1074</a></p>
+</div>
+<div id="ref-3GqlN9Dk">
+<p>8. <strong>Wikidata as a knowledge graph for the life sciences</strong> <br />
+Andra Waagmeester, Gregory Stupp, Sebastian Burgstaller-Muehlbacher, Benjamin M. Good, Malachi Griffith, Obi Griffith, Kristina Hanspers, Henning Hermjakob, Toby Hudson, Kevin Hybiske, … Andrew I. Su<br />
+<em>eLife</em> (2020-03-17) <a href="https://www.wikidata.org/wiki/Q87830400">https://www.wikidata.org/wiki/Q87830400</a> <br />
+DOI: <a href="https://doi.org/10.7554/elife.52614">10.7554/elife.52614</a></p>
+</div>
+<div id="ref-jXryyPLB">
+<p>9. <strong>Literature-based discovery</strong> <br />
+Wikipedia<br />
+(2021-01-24) <a href="https://en.wikipedia.org/w/index.php?title=Literature-based_discovery&amp;oldid=1002467308">https://en.wikipedia.org/w/index.php?title=Literature-based_discovery&amp;oldid=1002467308</a></p>
+</div>
+<div id="ref-Fuf8oc85">
+<p>10. <strong>Literature Based Discovery: models, methods, and trends.</strong> <br />
+M. S. Sam Henry, Bridget T. McInnes<br />
+<em>Journal of Biomedical Informatics</em> (2017-08-21) <a href="https://www.wikidata.org/wiki/Q38371706">https://www.wikidata.org/wiki/Q38371706</a> <br />
+DOI: <a href="https://doi.org/10.1016/j.jbi.2017.08.011">10.1016/j.jbi.2017.08.011</a></p>
+</div>
+<div id="ref-LNtevqb9">
+<p>11. <strong>Online tools to support literature-based discovery in the life sciences.</strong> <br />
+Marc Weeber, Marc Weeber, Jan A. Kors, Jan A. Kors, Barend Mons<br />
+<em>Briefings in Bioinformatics</em> (2005-09-01) <a href="https://www.wikidata.org/wiki/Q36280460">https://www.wikidata.org/wiki/Q36280460</a> <br />
+DOI: <a href="https://doi.org/10.1093/bib/6.3.277">10.1093/bib/6.3.277</a></p>
+</div>
+<div id="ref-Lbqx9XBK">
+<p>12. <strong>Unsupervised word embeddings capture latent knowledge from materials science literature</strong> <br />
+Vahe Tshitoyan, John Dagdelen, Leigh Weston, Alexander Dunn, Ziqin Rong, Olga Kononova, Kristin A. Persson, Gerbrand Ceder, Anubhav Jain<br />
+<em>Nature</em> (2019-07-03) <a href="https://www.wikidata.org/wiki/Q91595456">https://www.wikidata.org/wiki/Q91595456</a> <br />
+DOI: <a href="https://doi.org/10.1038/s41586-019-1335-8">10.1038/s41586-019-1335-8</a></p>
+</div>
+<div id="ref-CovO24JR">
+<p>13. <strong>Artificial intelligence in neurodegenerative disease research: use of IBM Watson to identify additional RNA-binding proteins altered in amyotrophic lateral sclerosis.</strong> <br />
+Nadine Bakkar, Tina Kovalik, Ileana Lorenzini, Scott Spangler, Alix Lacoste, Kyle Sponaugle, Philip Ferrante, Elenee Argentinis, Rita Sattler, Robert Bowser<br />
+<em>Acta Neuropathologica</em> (2017-11-13) <a href="https://www.wikidata.org/wiki/Q47406275">https://www.wikidata.org/wiki/Q47406275</a> <br />
+DOI: <a href="https://doi.org/10.1007/s00401-017-1785-8">10.1007/s00401-017-1785-8</a></p>
 </div>
 </div>
 <!-- default theme -->
