@@ -12,6 +12,10 @@
 
 <!-- usage note: edit this section. -->
 
+To search wikidatabib: 
+ ✗ code $(grep -rl " 1.2.2" notes)
+
+
 This repository is a template manuscript (a.k.a. rootstock).
 Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
 
