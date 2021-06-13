@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/lubianat/phd_thesis/tree/gh-pages) branch hosts the contents of this directory at <https://lubianat.github.io/phd_thesis/>.
-The permalink for this webpage version is <https://lubianat.github.io/phd_thesis/v/53cfb872312627258d3b873a5c40c0da9c42e908/>.
+The permalink for this webpage version is <https://lubianat.github.io/phd_thesis/v/d9b266ff6ad2cf55e0e0d8e2dd98079a8d302f84/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://lubianat.github.io/phd_thesis/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`53cfb872312627258d3b873a5c40c0da9c42e908`](https://github.com/lubianat/phd_thesis/commit/53cfb872312627258d3b873a5c40c0da9c42e908).
+[`d9b266ff6ad2cf55e0e0d8e2dd98079a8d302f84`](https://github.com/lubianat/phd_thesis/commit/d9b266ff6ad2cf55e0e0d8e2dd98079a8d302f84).
