@@ -2,7 +2,7 @@ Alexa
 Amyotrophic
 attractors
 bibliometric
-Biocuration
+biocuration
 biocurators
 Biohub
 bioinformatics
@@ -30,7 +30,7 @@ facto
 falseability
 FCBF
 fcoex
-Findable
+findable
 fo
 formalizations
 formating
